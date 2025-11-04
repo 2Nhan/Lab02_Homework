@@ -1,0 +1,25 @@
+{
+  "name": "jsx-without-react",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Complete JSX implementation without React - Lab 2 Project",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "type-check": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "keywords": [
+    "jsx",
+    "typescript",
+    "vite",
+    "custom-jsx-runtime"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
