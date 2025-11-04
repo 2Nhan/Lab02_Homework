@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JSX Without React - Custom JSX Runtime Implementation" />
+    <title>JSX Without React - Lab 2 Project</title>
+    <style>
+      /* Loading spinner */
+      .loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #3b82f6;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: translate(-50%, -50%) rotate(0deg); }
+        100% { transform: translate(-50%, -50%) rotate(360deg); }
+      }
+      
+      /* Hide loader when app loads */
+      #app:not(:empty) ~ .loader {
+        display: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-oBwy93fX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-VxjdOPz_.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="loader"></div>
+  </body>
+</html>
